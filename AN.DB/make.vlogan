@@ -5,8 +5,8 @@ VLOGAN_OPT	= -sverilog -full64
 all :		_VCSgd_dcIkp_1.db \
 	_VCSgd_vv4OCd_1.db \
 	_VCSgd_3aSrOb_1.db \
-	_VCSgd_rD5fze_1.db \
 	_VCSgd_lUYAb_1.db \
+	_VCSgd_rD5fze_1.db \
 	_VCSgd_WyXOjc_1.db \
 	_VCSgd_iNlyUb_1.db \
 	_VCSgd_reMwi_1.db \
@@ -25,12 +25,12 @@ _VCSgd_3aSrOb_1.db :	lab3.sv
 		${VLOGAN}  ${VLOGAN_OPT} lab3.sv
 
 
-_VCSgd_rD5fze_1.db :	isUnique.sv 
-		${VLOGAN}  ${VLOGAN_OPT} isUnique.sv
-
-
 _VCSgd_lUYAb_1.db :	inRange.sv 
 		${VLOGAN}  ${VLOGAN_OPT} inRange.sv
+
+
+_VCSgd_rD5fze_1.db :	isUnique.sv 
+		${VLOGAN}  ${VLOGAN_OPT} isUnique.sv
 
 
 _VCSgd_WyXOjc_1.db :	sumt.sv 

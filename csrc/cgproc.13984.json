@@ -1,0 +1,42 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {},
+        "BCDOneDigitAdd_test": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "mode": 4,
+            "out": "amcQw_d.o",
+            "bytes": 7344,
+            "archive": "archive.45/_13984_archive_1.a"
+        },
+        "p4Iu1_d": {
+            "mod": "BCDOneDigitAdd_test",
+            "mode": 4,
+            "out": "p4Iu1_d.o",
+            "bytes": 12489,
+            "archive": "archive.45/_13984_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "size": 19833,
+            "archive": "archive.45/_13984_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    7344
+                ],
+                [
+                    "p4Iu1_d.o",
+                    12489
+                ]
+            ]
+        }
+    ]
+}

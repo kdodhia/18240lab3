@@ -1,47 +1,50 @@
 {
     "MlibObjs": {},
-    "CurCompileModules": [
-        "...MASTER...",
-        "testInRange"
-    ],
     "PrevCompiledModules": {
-        "testInRange": {
-            "A2nRA_d": {
-                "bytes": 17134,
-                "mod": "testInRange",
-                "mode": 4,
-                "archive": "archive.12/_144906_archive_1.a",
-                "out": "A2nRA_d.o"
-            }
-        },
         "std": {
             "reYIK_d": {
+                "mode": 4,
                 "bytes": 29004,
                 "mod": "std",
-                "mode": 4,
-                "archive": "archive.12/_prev_archive_1.a",
+                "archive": "archive.44/_prev_archive_1.a",
                 "out": "reYIK_d.o"
             }
         },
         "...MASTER...": {
             "amcQw_d": {
+                "mode": 4,
                 "bytes": 7336,
                 "mod": "...MASTER...",
                 "out": "amcQw_d.o",
-                "mode": 4,
-                "archive": "archive.12/_144906_archive_1.a"
+                "archive": "archive.44/_13512_archive_1.a"
             }
         }
     },
+    "CurCompileModules": [
+        "...MASTER...",
+        "sum3_test"
+    ],
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/afs/ece.cmu.edu/usr/aarushiw/Private/18240/lab3/18240lab3",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/aarushiw/Private/18240/lab3/18240lab3/csrc",
+        "daidir": "simv.daidir",
+        "default_output_dir": "csrc",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/aarushiw/Private/18240/lab3/18240lab3/simv.daidir",
+        "archive_dir": "archive.44"
+    },
+    "LVLData": [
+        "SIM"
+    ],
     "NameTable": {
         "std": [
             "std",
             "reYIK",
             "module"
         ],
-        "testInRange": [
-            "testInRange",
-            "A2nRA",
+        "sum3_test": [
+            "sum3_test",
+            "wm3AT",
             "module"
         ],
         "...MASTER...": [
@@ -52,28 +55,16 @@
     },
     "CompileStrategy": "fullobj",
     "CurCompileUdps": {},
+    "PEModules": [],
     "SIMBData": {
         "out": "amcQwB.o",
-        "bytes": 61621
+        "bytes": 63380
     },
-    "LVLData": [
-        "SIM"
-    ],
-    "PEModules": [],
     "CompileProcesses": [
-        "cgproc.144906.json"
+        "cgproc.13512.json"
     ],
-    "Misc": {
-        "archive_dir": "archive.12",
-        "cwd": "/afs/ece.cmu.edu/usr/kdodhia/Private/class/18240/lab3/240lab3",
-        "csrc": "csrc",
-        "daidir_abs": "/afs/ece.cmu.edu/usr/kdodhia/Private/class/18240/lab3/240lab3/simv.daidir",
-        "daidir": "simv.daidir",
-        "csrc_abs": "/afs/ece.cmu.edu/usr/kdodhia/Private/class/18240/lab3/240lab3/csrc",
-        "default_output_dir": "csrc"
-    },
     "stat": {
-        "nMops": 736
+        "nMops": 585
     },
     "CompileStatus": "Successful"
 }
