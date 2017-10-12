@@ -7,6 +7,7 @@ module isUnique
 	logic [8:0]temp;
 	
 	always_comb begin
+		temp = 9'b111111111;
 		temp[num1-1] = 0;
 		temp[num2-1] = 0;
 		temp[num3-1] = 0;

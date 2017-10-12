@@ -1,0 +1,76 @@
+{
+    "MlibObjs": {},
+    "PEModules": [],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "testIsMagic",
+        "sum3"
+    ],
+    "PrevCompiledModules": {
+        "...MASTER...": {
+            "amcQw_d": {
+                "mode": 4,
+                "out": "amcQw_d.o",
+                "bytes": 7336,
+                "mod": "...MASTER...",
+                "archive": "archive.13/_145388_archive_1.a"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "out": "reYIK_d.o",
+                "mode": 4,
+                "bytes": 29004,
+                "mod": "std",
+                "archive": "archive.13/_prev_archive_1.a"
+            }
+        }
+    },
+    "stat": {
+        "nMops": 2612
+    },
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "testIsMagic": [
+            "testIsMagic",
+            "ASg2x",
+            "module"
+        ],
+        "sum3": [
+            "sum3",
+            "K87LQ",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "SIMBData": {
+        "bytes": 61701,
+        "out": "amcQwB.o"
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.145388.json"
+    ],
+    "Misc": {
+        "cwd": "/afs/ece.cmu.edu/usr/kdodhia/Private/class/18240/lab3/240lab3",
+        "daidir_abs": "/afs/ece.cmu.edu/usr/kdodhia/Private/class/18240/lab3/240lab3/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/ece.cmu.edu/usr/kdodhia/Private/class/18240/lab3/240lab3/csrc",
+        "default_output_dir": "csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.13"
+    },
+    "CompileStatus": "Successful"
+}

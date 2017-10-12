@@ -1,0 +1,57 @@
+{
+    "Modules": {
+        "std": {},
+        "...MASTER...": {},
+        "testIsMagic": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "sum3": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "mode": 4,
+            "bytes": 7336,
+            "out": "amcQw_d.o",
+            "archive": "archive.13/_145388_archive_1.a"
+        },
+        "ASg2x_d": {
+            "mod": "testIsMagic",
+            "mode": 4,
+            "bytes": 33723,
+            "out": "ASg2x_d.o",
+            "archive": "archive.13/_145388_archive_1.a"
+        },
+        "K87LQ_d": {
+            "mod": "sum3",
+            "mode": 4,
+            "bytes": 11112,
+            "out": "K87LQ_d.o",
+            "archive": "archive.13/_145388_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.13/_145388_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    7336
+                ],
+                [
+                    "ASg2x_d.o",
+                    33723
+                ],
+                [
+                    "K87LQ_d.o",
+                    11112
+                ]
+            ],
+            "size": 52171
+        }
+    ]
+}

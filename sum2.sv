@@ -3,6 +3,10 @@ module BCDOneDigitAdd
 	output logic [3:0] sum,
 	output logic valid);
 	
-	always_comb
-		{valid, sum} = num1 + num2;
+	logic not_valid;
+	always_comb begin
+		{not_valid, sum} = num1 + num2;
+		valid = ~not_valid;
+ 	end
+
 endmodule:BCDOneDigitAdd
