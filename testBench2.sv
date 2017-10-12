@@ -14,12 +14,12 @@ module isUnique_test;
                         num1, num2, num3, num4, num5, num6, num7, num8, num9,
                         unique_valid);
 
-                {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {0, 0, 0, 0, 0, 0, 0, 0, 0};
-                #10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {1, 1, 2, 5, 2, 7, 8, 2, 9};
-                #10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {9, 2, 4, 6, 1, 7, 3, 7, 9};
-                #10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {2, 7, 6, 9, 5, 1, 4, 3, 8};
-                #10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {6, 1, 8, 7, 5, 3, 2, 9, 4};
-                #10 $finish;
+		num1=0; num2=0; num3=0; num4=0; num5=0; num6=0; num7=0; num8=0; num9=0;
+		#10 num1=1; num2=1; num3=2; num4=5; num5=2; num6=7; num7=8; num8=2; num9=9;
+		#10 num1=9; num2=2; num3=4; num4=6; num5=1; num6=7; num7=3; num8=7; num9=9;
+		#10 num1=2; num2=7; num3=6; num4=9; num5=5; num6=1; num7=4; num8=3; num9=8; 
+		#10 num1=6; num2=1; num3=8; num4=7; num5=5; num6=3; num7=2; num8=9; num9=4;
+		#10 $finish;
         end
 endmodule: isUnique_test
 
@@ -88,11 +88,11 @@ module sumt_test;
 			num1, num2, num3, num4, num5, num6, num7, num8, num9,
 			it_is_magic, magic_constant);
 
-		{num1, num2, num3, num4, num5, num6, num7, num8, num9} = {0, 0, 0, 0, 0, 0, 0, 0, 0};
-		#10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {1, 1, 2, 5, 2, 7, 8, 2, 9};
-		#10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {9, 2, 4, 6, 1, 7, 3, 7, 9};
-		#10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {2, 7, 6, 9, 5, 1, 4, 3, 8};
-		#10 {num1, num2, num3, num4, num5, num6, num7, num8, num9} = {6, 1, 8, 7, 5, 3, 2, 9, 4};
+		num1=0; num2=0; num3=0; num4=0; num5=0; num6=0; num7=0; num8=0; num9=0;
+		#10 num1=1; num2=1; num3=2; num4=5; num5=2; num6=7; num7=8; num8=2; num9=9;
+		#10 num1=9; num2=2; num3=4; num4=6; num5=1; num6=7; num7=3; num8=7; num9=9;
+		#10 num1=2; num2=7; num3=6; num4=9; num5=5; num6=1; num7=4; num8=3; num9=8; 
+		#10 num1=6; num2=1; num3=8; num4=7; num5=5; num6=3; num7=2; num8=9; num9=4;
 		#10 $finish;
 	end
 endmodule: sumt_test
